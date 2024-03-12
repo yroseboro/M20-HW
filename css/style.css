@@ -122,3 +122,14 @@ body {
   .card img {
     width: 80%;
   }
+  .card-container {
+    display: flex;
+    justify-content: flex-end; /* Align cards to the right */
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    background-color: lightblue;
+    margin: 10px;
+}
